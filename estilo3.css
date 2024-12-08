@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7ceff; /* Fondo suave */
+    color: #000000; /* Color de texto */
+}
+
+header {
+    background-color: #f3aae3; /* Color coral */
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+}
+
+.book {
+    background-color: #fff; /* Fondo blanco */
+    border: 2px solid #ff88e5; /* Bordes coral */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 15px;
+    margin: 10px 0;
+    transition: transform 0.2s; /* Animación de transformación */
+}
+
+.book:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+}
+
+h2 {
+    color: #000000; /* Color coral para los títulos de libros */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff70db; /* Color coral */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

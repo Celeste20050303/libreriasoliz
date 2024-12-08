@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolizBooks - Librería</title>
+    <link rel="stylesheet" href="esitlo.css">
+</head>
+<body>
+<header>
+    <h1>Bienvenido a SolizBooks</h1>
+<nav>
+    <ul>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="recomendaciones.html">Recomendaciones</a></li>
+        </ul>
+</nav>
+</header>
+<div class="sidebar">
+<h2>Índice</h2>
+    <ul>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="recomendaciones.html">Recomendaciones</a></li>
+    </ul>
+</div>
+<main>
+<section id="inicio">
+    <h2>Inicio</h2>
+    <p>Explora nuestra amplia selección de libros y productos relacionados.</p>
+</section>
+<section id="productos">
+<h2>Productos</h2>
+    <ul>
+    <img src="atv.jpg" max width="400" class="product-image"> <iframe width="560" height="315" src="https://www.youtube.com/embed/ibjAgqsgQzc?si=of44iNVm0lyrBNpF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <br>
+        <li> Libro 1: "A través de mi ventana" es una novela escrita por la autora española María de los Ángeles que ha capturado la atención de los jóvenes lectores por su relato romántico y contemporáneo.</li>
+    <br>
+    <br>
+    <img src="snv.jpg" max width="400" class="product-image"> <iframe width="560" height="315" src="https://www.youtube.com/embed/XKM6LZGZVtI?si=dq-E8L2wMmVQELYf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <br>
+        <li>Libro 2: "La sociedad de la nieve" es una novela de Javier Castillo que se basa en la historia real de los sobrevivientes del accidente aéreo de los Andes en 1972. A continuación, te presento un resumen de la trama y los temas principales del libro.</li>
+    </ul>
+</section>
+<section id="recomendaciones">
+<h2>RECOMENDACIONES</h2>
+    <main>
+    <iframe width="600" height="315" src="https://www.youtube.com/embed/ld4mWUqJo9o?si=eo3V53TBzgSgmtP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>           <iframe width="600" height="315" src="https://www.youtube.com/embed/FmvxMgThlmI?si=78jso3MdEvQCyVnO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>1. *El Alquimista* - Paulo Coelho</h2>
+    <p>Un joven pastor llamado Santiago sueña con encontrar un tesoro en las pirámides de Egipto. Esta novela mágica explora la búsqueda de los sueños y la importancia de escuchar al corazón.</p>
+</section>
+<section id="contacto">
+    <h2>Contacto</h2>
+    <form id="contact-form">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required>
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" required></textarea>
+    <button type="submit">Enviar</button>
+    </form>
+</section>
+    </main>
+<audio id="background-audio" loop autoplay>
+    <source src="Library Coffee Shop Ambience with Smooth Jazz Music for Relaxing, Studying and Working [hTLa16ZwgX0].mp3" type="audio/mpeg">
+ </audio>
+<footer>
+    <p>&copy; 2024 SolizBooks. Todos los derechos reservados.</p>
+</footer>
+<script>
+ document.querySelector('.back-to-top').addEventListener('click', function(event) {
+event.preventDefault();
+document.getElementById('inicio').scrollIntoView({ behavior: 'smooth' });
+        });
+</script>
+</body>
+</html>
